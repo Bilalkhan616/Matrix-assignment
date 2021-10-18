@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Multi-Dimensional Array</h1>
+    <div class="mainContainer">
+      <!-- matrix A  -->
+
+      <div class="matrix-A">
+        <div class="number-box">
+          <input type="number" id="l1" />
+          <input type="number" id="l2" />
+          <input type="number" id="l3" />
+        </div>
+        <div class="number-box">
+          <input type="number" id="l4" />
+          <input type="number" id="l5" />
+          <input type="number" id="l6" />
+        </div>
+        <div class="number-box">
+          <input type="number" id="l7" />
+          <input type="number" id="l8" />
+          <input type="number" id="l9" />
+        </div>
+      </div>
+
+      <p class="signs">+</p>
+      <!-- matrix B  -->
+
+      <div id="matrix-B">
+        <div class="number-box">
+          <input type="number" id="r1" />
+          <input type="number" id="r2" />
+          <input type="number" id="r3" />
+        </div>
+        <div class="number-box">
+          <input type="number" id="r4" />
+          <input type="number" id="r5" />
+          <input type="number" id="r6" />
+        </div>
+        <div class="number-box">
+          <input type="number" id="r7" />
+          <input type="number" id="r8" />
+          <input type="number" id="r9" />
+        </div>
+      </div>
+
+      <p class="signs">=</p>
+      <!-- sum of the two matrix  -->
+
+      <div id="matrix-C">
+        <div class="number-box">  
+          <input type="number" id="a1" value="0" />
+          <input type="number" id="a2" value="0"/>
+          <input type="number" id="a3" value="0"/>
+        </div>
+        <div class="number-box">
+          <input type="number" id="a4" value="0"/>
+          <input type="number" id="a5" value="0"/>
+          <input type="number" id="a6" value="0"/>
+        </div>
+        <div class="number-box">
+          <input type="number" id="a7" value="0"/>
+          <input type="number" id="a8" value="0"/>
+          <input type="number" id="a9" value="0"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn">
+      <button id="btn-submit" onclick="matrixAdd()">Sum</button>
+    </div>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>

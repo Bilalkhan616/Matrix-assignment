@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.matrix-A, .matrix-B, .matrix-C {
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.signs {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9 {
+
+    color: rebeccapurple;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background-color: aqua;
+    padding-top: 10px; 
+    padding-bottom : 10px;
+    padding-left: 20px; 
+    padding-right : 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
